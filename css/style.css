@@ -1,0 +1,66 @@
+h1{
+    
+    font-family: 'Luminari, fantasy';
+ }
+
+.cl1{
+    font-weight: normal;
+    font-family: 'Luminari, fantasy';
+    color: #ffffff;
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    right: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.cl2{
+    font-weight: normal;
+    font-family: 'Luminari, fantasy';
+    color: #ffffff;
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    right: 40%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+#contact #form{
+    width: 500px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    box-shadow:0px 9px 13px 5px;
+    border-radius: 5px;
+    
+    }
+
+    #contact #form input 
+    {
+    width:100%;
+    border-radius:5px;
+    height:20px;
+   }
+    
+    #contact #form #message
+    {   
+    width:100%;
+    border-radius:5px; 
+    }
+    
+    #contact #form #submit{
+        
+    height: 30px;
+    background: rgb(158, 70, 43);
+      
+    }
+    
+  
+ 
+ 
+  
+  
+ 
+  
+

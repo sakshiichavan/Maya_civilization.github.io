@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script> 
+    <div class="border">
+      <style>
+      .border {
+        width:1200px;
+        margin:0 auto;
+        box-shadow:0px 9px 13px 5px;
+        padding:10px 15px;
+        border:1px solid rgb(88, 0, 0);
+        background:rgb(56, 4, 4); }
+  
+  *{
+  margin:0;
+  padding:0;
+  font-family:verdana;
+  }
+  #abc{
+  width:100%;
+  height:100vh;
+  background-image: url("nESvQqA.jpg");
+  background-size: cover;
+  }
+  nav{
+  width: 100%;
+  height: 50px;
+  background-color: #0005;
+  line-height: 50px;
+  }
+  nav ul{
+  float: right;
+  margin-right: 30px;
+  }
+  nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  transition: 0.7s all;
+  }
+  nav ul li:hover{
+  background-color: rgba(139, 58, 21, 0.973);
+  }
+  nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 30px;
+  }
+  
+ </style>
+ <body id="contact">
+
+  <div id="abc">
+      <nav>
+      <ul>
+        <ul>
+          <li><a href="index.html" style="font-size: 20px; font-family: Helvetica Greek;">HOME</a></li>
+          <li><a href="shop.html"  style="font-size: 20px; font-family: Helvetica Greek;">SOUVENIR SHOP</a></li>
+          <li><a href="feedback.html"  style="font-size: 20px; font-family: Helvetica Greek;">LET'S TALK</a></li>
+          </ul>
+      </nav>
+      <br><br><br><br>
+    
+        
+        <article class="main">
+        <div id="form">
+            
+          <form action="process.php">
+             <p> 
+            <label for="name">Name:</label>
+            <input type="text" name="name" placeholder="Your Name">
+             </p> 
+              <p>
+             <label for="name">Email:</label>
+            <input type="text" name="email" placeholder="Your Email"></p> 
+            <p>
+              <label for="name">Subject:</label>
+              <input type="text" name="subject" placeholder="Your Subject">
+              </p>
+              <p>
+             <label> Message:</label><textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message">    
+            </textarea>
+              </p>
+              
+              <p>
+              <input id="submit" type="submit" name="submit" value="Send Message">
+              </p>
+            
+               </form>
+            
+            
+            
+            </div> 
+            
+              </article>
+    
+  
+    
+    </div>
+    
+     </div>
+    </body>
+    
+    
+</html>
